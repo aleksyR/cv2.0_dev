@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Alexis Rouet | Concepteur Designer UI à Draguignan">
+    <meta name="keywords" content="Designer UI, Concepteur Designer UI, Portfolio Designer UI, Création site web, designer ui draguignan">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Début police Bree Serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:wght@400;700&display=swap" rel="stylesheet"> 
+    <!-- Fin police Bree Serif-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- Début police Lato-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Slab:wght@600;700&display=swap"
+      rel="stylesheet"/>
+    <!-- Fin police Lato-->
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="icon" type="image/png" href="../image/logo.png"/>
+    <title>Passion | Alexis-Designer UI</title>
+  </head>
+
+  <body>
+    <!-----------------------------Bouton back to top----------------------------------->
+    <button type="button" class="btn btn-floating" id="btn-back-to-top">
+      <i class="arrow up"></i>
+    </button>
+    <!-----------------------------Fin bouton back to top-------------------------------->
+
+     <!--------------------------Début navbar responsive en dessous de 990px------------------->
+     <header class="navbar navbar-expand-lg sticky-top">
+      <a href="../index.html" class="navbar-brand ml-5">
+         <img src="../image/logo_dark_sans_fond.png" alt="logo blanc initial AR" height="50px" weight="50px">
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-content">
+         <img src="../icone/menu.png" alt="menu navbar" height="20px" width="20px">
+      </button>
+
+       <!---------Liste non-ordonnée des éléments de la barre nav --------------->
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+          <nav >
+            <ul class="navbar-nav" >
+              <li class="nav-item align-self-center mx-2">
+                <a href="../index.html" class="nav-link  text-white list">Accueil</a>
+              </li>
+              <li class="nav-item align-self-center mx-2">
+                <a href="apropos.html" class="nav-link text-white list">À propos</a>
+              </li>
+              <li class="nav-item align-self-center mx-2">
+                <a href="portfolio.html" class="nav-link text-white list">Portfolio</a>
+              </li>
+              <li class="nav-item align-self-center dropdown mx-2"> <!----------- Début liste déroulante ---------->
+                <a href="#" class="nav-link text-white dropdown-toggle list" data-toggle="dropdown"> 
+                   Passion
+                </a>
+                  <div class="dropdown-menu dropdown-center" id="dropdown_list" style="border:none;"> 
+                    <a href="aventure_survie.html" class="text-white dropdown-item list">Aventure/Survie</a>
+                    <a href="faune_flore.html" class="disabled dropdown-item list" style="color: #ff8e32; border-bottom: 5px solid #ff8e32;">Faune/Flore</a>
+                    <a href="randonnee.html" class="text-white dropdown-item list">Randonnée</a>
+                  </div>    
+              </li> <!-- ------------------Fin liste déroulante------------------ -->
+              <li class="nav-item align-self-center mx-2">
+                <a href="contact.html" class="nav-link text-white list">Contact</a>
+              </li>
+              <li class="nav-item align-self-center ml-lg-5 mr-lg-5">
+                <a href="#" class="icons mr-2" title="(+33) 06 00 00 00 00"> <img src="../icone/tel.png" alt="logo téléphone" height="25px" width="25px"></a>
+                <a href="mailto:example@email.com" class="icons ml-3"> <img src="../icone/contact.png" alt="logo enveloppe de contact"
+                   height="20px" width="30px" target="_blank"></a>
+                
+              </li>
+            </ul>  <!-----------Fin liste des éléments--------->
+          </nav>
+        </div>        
+    </header>
+    <!-- -----------------------------------------Fin navbar responsive-------------------------------------->
+
+    <!----------------------Section 1 Titre h1 avec image background + fil d'ariane -------------------->
+
+    <div class="img_bg_faune d-flex flex-column justify-content-between align-items-center passion">
+      <nav aria-label="breadcrumb" class="mt-4 ariane">
+          <ul class="breadcrumb bg-transparent">
+            <li class="breadcrumb-item"><a href="../index.html" class="text-white">Accueil</a></li>
+            <li class="breadcrumb-item active" aria-current="page" style="color: #ff8e32;">Faune/Flore</li>
+          </ul>
+      </nav>
+      <h1 class="text-uppercase text-center">Faune/Flore</h1>
+        <div class="indicator mb-5"></div>
+    </div>
+  <!----------------------------------------------------------Fin section 1--------------------------------------------------->
+  
+  <!-----------------------------------------------------Section 2 présentation------------------------------------------------------>
+    
+  <div class="container-fluid jumbotron">
+    <div class="row justify-content-around">
+      <div class="col-lg-6 col-md-6 presentation">
+        <img src="../image/ours.jpg" alt="" class="img-fluid rounded" width="500px" height="500px">
+      </div>
+      <div class="col-lg-6 col-md-6 presentation mt-4 mt-md-0">
+        <h2 class="text-uppercase">présentation</h2>
+        <p class="" style="max-width: 600px;">
+          La faune joue un rôle important dans la préservation de la flore,
+          car certaines plantes sont entièrement dépendantes d’un insecte pour
+          sa pollinisation et donc son éventuelle reproduction. Sans la flore,
+          il n’y aurait pas de vie sur terre. C’est elle qui transforme l’énergie
+          du soleil en nourriture et qui est capable de produire de l’oxygène.
+        </p>
+        <div class="mt-4">
+        <img src="../icone/abeille.png" alt="" class="img-fluid" width="80px" height="80px">
+        <img src="../icone/fleur.png" alt="" class="img-fluid mx-5" width="70px" height="70px">
+        <img src="../icone/lion.png" alt="" class="img-fluid" width="70px" height="70px">
+      </div>
+
+      </div>
+    </div>
+  </div>
+  <!----------------------------------------------------------------Fin section 2---------------------------------------------------->
+    <!---------------------Section 3 titre h2 et texte------------------->
+  <div class="d-flex flex-column justify-content-center align-items-center my-4">
+      <img src="../image/pygargue_steller.png" alt="aigle pyrgargue steller sur une banquise avec coucher de soleil" class="img-fluid col-lg-9">
+    <div>
+      <h2 class="text-uppercase mt-2 text-md-left text-center mx-sm-3">Pourquoi cette passion ?</h2>
+      <p style="max-width: 1000px;" class="text-center text-md-left mx-sm-3">J’ai toujours aimé passer mon temps en extérieur,
+        observer la nature et la comprendre. Je pense que la nature nous offre beaucoup et que nous ne sommes pas assez reconnaissant
+        de ce qu’elle nous apporte.<br/><br/>  Les forêts perdent de leurs superficies jour après jour (10 millions d’hectare par an),
+        des espèces animales (22 % menacés d’extinction) disparaissent de jour en jour et de ce fait des espèces végétales aussi.
+        L’activité humaine sur l’environnement a un impact important sur l’extinction des espèces, cela perturbe l’équilibre de
+        la nature et rend les écosystèmes plus fragiles et moins résistants aux perturbations.<br/><br/> 
+        Je pense que nous devons agir chacun par de petites actions du quotidien qui ont déjà un impact sur la biodiversité. Par exemple,
+        économiser l’eau, réduire nos déchets, éviter les produits toxiques, réduire sa consommation d’énergie, opter pour une alimentation
+        de saison et locale. Le fait d’appliquer ses petites actions tous les jours pourrait permettre de réduire l’intensification des modes
+        d’exploitations, du dérèglement climatique, les pollutions agricoles, industrielles ou domestiques…<br/><br/> 
+        N’hésitez pas à en parler et convaincre votre entourage !
+      </p>
+    </div>
+  </div>
+  <!--------------------------------------Fin section 3----------------------------------------------->
+</body> 
+   <!-------------------------------Footer--------------------------------->
+   <footer class="container-fluid">
+    <div class="row justify-content-md-between align-items-center mx-md-5 justify-content-center footer">
+
+      <div class="mt-4">
+        <h3 class="h6 contact_footer font-weight-bold text-center text-md-left">Me contacter</h3>
+        <p class="text-center text-md-left text-white font-weight-bold">example@email.com<br/>06 00 00 00 00</p>
+      </div>
+
+      <div class="mt-2 mb-3">
+        <a href="../index.html" class="navbar-brand">
+          <img src="../image/logo_dark_sans_fond.png" alt="logo blanc initial AR" height="70px" weight="70px">
+        </a>
+      </div>
+
+      <div class="mt-1">
+        <a href="https://twitter.com/ale_ksy99" class="icons" target="_blank"> 
+          <img src="../icone/twitter.png" alt="logo twitter" height="40px" width="40px">
+        </a>
+        <a href="https://www.instagram.com/al_eksy99/" class="icons m-3" target="_blank">
+           <img src="../icone/instagram.png" alt="logo instagram" height="40px" width="40px">
+          </a>
+        <a href="https://www.linkedin.com/in/alexis-rouet-57782617a/" class="icons" target="_blank"> 
+          <img src="../icone/linkedin.png" alt="logo linkedin" height="40px" width="40px">
+        </a> 
+      </div>
+    </div>
+
+      <div class="d-flex row justify-content-center mt-3">
+        <a href="#" class="mentions">Politique de confidentialité</a>
+        <p class="mx-2">/</p>
+        <a href="#" class="mentions">Mentions légales</a>
+      </div>
+
+  </footer>
+<!-----------------------------Javascript------------------------------>
+<script>
+  //Appel le bouton
+let mybutton = document.getElementById("btn-back-to-top");
+
+// Quand l'utilisateur scroll de 20px vers le bas, le bouton devient visible
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// Quand l'utilisateur clique, remonte vers le haut de la page
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+<!------------------------Fin programmation back to top----------------------------->
+
+
+  <script src="../JS/jquery-3.6.0.slim.min.js"></script>
+  <script src="../JS/bootstrap.bundle.min.js"></script>
+</html>

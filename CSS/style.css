@@ -1,0 +1,500 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #343748;
+}
+
+h1 {
+    color: #ff8e32;
+    font-family: 'Bree Serif', serif;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-family: 'Bree Serif', serif;
+    font-size: 3em;
+}
+
+h3 {
+  color: #FFFFFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4em;
+}
+
+p {
+    color: #D0CDCD;
+    font-family:'Lato', sans-serif;
+    font-size: 1.2em;
+}
+
+label {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2em;
+}
+
+header {
+  background-color: rgba(30, 31, 37, 1);
+  box-shadow: 0px 3px 10px #1E1F25;
+}
+
+input, textarea {
+  border-radius: 100px !important;
+  background-color: #1E1F25 !important;
+  border: 2px solid #ff8e32 !important;
+}
+
+footer {
+  background-color: #1E1F25;
+  height: auto;
+  padding: 15px;
+}
+/*----------------------------- Class----------------------------- */
+
+.list {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.list:hover {
+  color: #ff8e32 !important;
+}
+
+.list:focus {
+  border-bottom: 4px solid #ff8e32;
+}
+
+.icons:hover {  /*Transparence sur le hover des icons réseaux sociaux */
+  background-color: transparent; 
+}
+
+.img_bg {
+  background-image: url(../image/coucher_de_soleil2.jpg);
+  height: 662px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.p-carte {
+  font-size: 1em;
+}
+
+.CV, .bouton {
+  border-radius: 100px 100px 100px 100px;
+  background-color: #ff8e32;
+  color: #1E1F25;
+  text-align: center;
+  vertical-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  width: 210px;
+  height: 50px;
+  line-height: 35px;
+  margin-bottom: 20%;  
+  box-shadow: 0px 5px 10px #1E1F25;
+}
+
+.bouton:hover, .CV:hover {
+  background-color: #1E1F25 ;
+  color: #ff8e32;
+  text-decoration: none;
+}
+
+.bouton2:hover, #projet:hover {
+  background-color: #D0CDCD ;
+  color: #1E1F25;
+  text-decoration: none;
+}
+
+.btn_projet {
+  border-radius: 100px 100px 100px 100px;
+  background-color: #ff8e32;
+  color: #1E1F25;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  width: 170px;
+  height: 50px;
+  line-height: 35px;
+  box-shadow: 0px 5px 8px#1E1F25;
+}
+
+.btn_projet:hover {
+  text-decoration: none;
+  background-color: #343748;
+  color: #ff8e32;
+}
+
+
+.carte_role {
+  background-color: #1E1F25;
+  box-shadow: 0px 5px 8px#1E1F25;
+}
+
+.carte {
+  width: 100px !important;
+  height: 100px !important;
+  align-self: center;
+}
+
+.btn_noir {
+  border-radius: 100px 100px 100px 100px;
+  background-color: #1E1F25;
+  color: #ff8e32;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  width: 250px;
+  height: 60px;
+  line-height: 45px;
+  box-shadow: 0px 5px 8px#1E1F25;
+}
+
+.btn_noir:hover {
+  text-decoration: none;
+  background-color: #ff8e32;
+  color: #1E1F25;
+}
+
+.btn_envoyer {
+  border-radius: 100px 100px 100px 100px;
+  background-color: #ff8e32;
+  color: #1E1F25;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  width: 210px;
+  height: 50px;
+  line-height: 35px;
+  box-shadow: 0px 5px 8px#1E1F25;
+}
+
+.btn_envoyer:hover {
+  background-color: #1E1F25 ;
+  color: #ff8e32;
+  text-decoration: none;
+}
+
+.mentions {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.mentions:hover {
+  text-decoration: none;
+  color: #D0CDCD;
+}
+.contact_footer {
+  color: #ff8e32;
+}
+
+/*------------indicateur scroll vers le bas ----------*/
+.indicator {
+  width: 35px; 
+  height: 70px;
+  border: 3px solid #fff;
+  border-radius: 50px; 
+  position: relative;
+}
+
+.indicator:before { 
+  content: ""; 
+  position: absolute;
+  width: 15px; 
+  height: 15px;
+  background: #fff; 
+  margin: auto;
+  left: 0; 
+  right: 0;
+  top: 30px; 
+  border-radius: 50%;
+  animation: animate 1s linear infinite; 
+}
+@keyframes animate {
+  0% {
+      opacity: 1; top: 30px;
+  }
+  100% {
+      opacity: 0; top: 100px;
+      transform: scale(0.8);
+  }
+}
+
+/*------Fin indicateur scroll vers le bas---- */
+
+.img_bg_survie {
+  background-image: url(../image/montagne_noirblanc.jpg);
+  height: 662px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+/* Icon fleche fil ariane */
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: url(../icone/fleche-droite.png) !important;
+}
+
+.img_bg_faune {
+  background-image: url(../image/eau_forêt.jpg);
+  height: 662px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.img_bg_randonnee {
+  background-image: url(../image/randonnée.jpg );
+  height: 662px;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.dropdown-item:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.jumbotron {
+  background-color: #1E1F25 !important;
+}
+
+.progress-bar {
+  background-color: #ff8e32;
+}
+
+.progress {
+  background-color: #D0CDCD;
+  border-radius: 100px;
+}
+
+/* Back to top */
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 20px;
+  background-color: #D0CDCD;
+  border-radius: 100px;
+  z-index: 1000;
+
+}
+.arrow {
+  border: solid #ff8e32;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* Fin Back to top */
+
+.image_apropos {
+  margin-left: 150px;
+}
+
+/*----------------------------- ID----------------------------- */
+
+#dropdown_list {
+  background-color: #1E1F25;
+}
+
+
+#titre-principal {
+  color: #FFFFFF;
+  font-size: 4em;
+  margin-top: 15%;
+}
+
+#projet, .bouton2 {
+  border-radius: 100px 100px 100px 100px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 3px solid #FFFFFF;
+  text-decoration: none;
+  font-weight: bold;
+  width: 210px;
+  height: 50px;
+  line-height: 30px;
+  margin-bottom: 20%;
+}
+
+#projet {
+  box-shadow: 0px 5px 8px #1E1F25;
+}
+
+#visite_portfolio:hover {
+  color: #1E1F25;
+  font-weight: bold;
+}
+
+#visite_portfolio {
+  text-decoration: none;
+  color: #ff8e32;
+
+}
+
+#carte_height {
+  height: 350px !important;
+}
+
+#btn_cv_apropos {
+  margin-bottom: 0%;
+}
+
+
+#icone_contact {
+  margin-left: 24% !important ;
+}
+
+#cta_contact {
+  height: 350px !important;
+} 
+
+#btn_contact {
+  width: 300px;
+  height: 60px;
+  margin-bottom: 0%;
+  line-height: 45px;
+  font-size: 1.3em;
+}
+
+#btn_contact:hover {
+  background-color: #343748 ;
+}
+
+/*Media queries pour les écrans inférieurs à 768px (responsive)*/
+
+@media screen and (max-width:768px) {
+  #titre-principal {
+    font-size: 3em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+  
+  }
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+
+}
+
+p {
+  font-size: 1em;
+  text-align: center;
+}
+
+label {
+  font-size: 1em;
+}
+
+  .btn-accueil {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+    }
+  .footer {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+
+  .centrale {
+    align-items: center !important;
+  }
+  
+  .ligne, .image_apropos {
+    display: none;
+  }
+
+  .presentation {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+
+.passion {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  align-content: center !important;
+}
+
+.ariane {
+  position: absolute;
+  top: 100px;
+}
+
+  .indicator {
+    display: none;
+  }
+
+  .apropos {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+
+  #btn_cv_apropos {
+    margin-left: 20% !important;
+  }
+
+  .icone_contact {
+    width: 50px;
+    height: 50px;
+  }
+
+}
+
+/*Media queries pour les écrans inférieurs à 900px (responsive)*/
+
+@media screen and (max-width: 900px) {
+  .image_apropos {
+    display: none;
+  }
+  .indicator {
+    display: none;
+  }
+  .passion {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    align-content: center !important;
+  }
+  
+  .ariane {
+    position: absolute;
+    top: 100px;
+}
+
+h1 {
+font-size: 2.5em;
+}
+}
